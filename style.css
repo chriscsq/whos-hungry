@@ -89,6 +89,8 @@ body {
     width: 30%;
     float: left;
     padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .circle-images {
@@ -102,6 +104,9 @@ body {
 }
 
 .squared-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50px;
     padding: 10px;
     width: 300px;
