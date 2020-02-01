@@ -1,5 +1,5 @@
 # SENG513-Assignment-1
-https://chriscsq.github.io/whos-hungry/deals.html
+https://chriscsq.github.io/whos-hungry
 
 #### The main objectives of this assignment are:
 - to design a simple website by manually crafting HTML and CSS, and
