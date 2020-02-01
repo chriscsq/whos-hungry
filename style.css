@@ -10,6 +10,7 @@
     color: #89959B;
 }
 
+
 .body-text-small {
     font-family: Roboto;
     font-size: 15px;
@@ -83,7 +84,11 @@ body {
     background-color: white;
 }
 
-
+.column-three {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
 
 .circle-images {
     display: block;
