@@ -12,6 +12,12 @@
     height: 500px;
 }
 
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+
 #title {
     font-size: 70px;
     margin-left: 5%;
