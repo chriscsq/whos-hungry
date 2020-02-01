@@ -10,6 +10,12 @@
     color: #89959B;
 }
 
+footer p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #89959B;
+    font-size: 10px;
+}
 
 .body-text-small {
     font-family: 'Roboto', sans-serif;
@@ -197,7 +203,6 @@ body {
 table, th, td {
     margin-left: auto;
     margin-right: auto;
-
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid #ddd;
     padding: 15px;
