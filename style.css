@@ -30,13 +30,13 @@
         font-family: Roboto;
         text-decoration: none;
         color: black;
-        font-size: 17px;
+        font-size: 20px;
         padding: 20px;
     }
 
         .topnav a:hover {
             text-decoration: underline;
-            -webkit-animation: fadecolor 2s;
+            -webkit-animation: fadecolor .5s;
         }
 
 #title1 {
@@ -61,20 +61,24 @@
         opacity: 1;
     }
 }
+
 @-webkit-keyframes fadecolor {
     from {
         color: black:
     }
+
     to {
         color: coral;
     }
 
     @-webkit-keyframes fadein2 {
-        from {
-        opacity: 0;
-    }
+        from
 
-    to {
-        opacity: .7;
-    }
+{
+    opacity: 0;
+}
+
+to {
+    opacity: .7;
+}
 }
