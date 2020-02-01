@@ -30,6 +30,7 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+
 body {
     background-color: #F3F3F3;
 }
@@ -99,7 +100,6 @@ body {
     width: 30%;
     float: left;
     padding: 10px;
-
 }
 
 .circle-images {
@@ -166,6 +166,16 @@ body {
     -webkit-animation: fadein2 4s;
     top: 0%;
 }
+
+table, th, td {
+    font-family: Roboto;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+    color: #89959B;
+    width: 600px;
+}
+
 
 
 @-webkit-keyframes fadein1 {
