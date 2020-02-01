@@ -154,7 +154,7 @@ body {
     list-style: none;
     text-align: left;
     background-color: black;
-    width: 600px;
+    width: 605px;
     top: -30px;
     height: 40px;
 }
@@ -274,4 +274,3 @@ input[type=submit] {
     }
 }
 
-@import url
