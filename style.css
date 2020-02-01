@@ -1,3 +1,12 @@
-.hw {
-    color: aquamarine;
+#title {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Roboto;
+}
+
+.banner {
+    height: 100px;
+    width: 100%;
+    background-color: #faecc0;
 }
