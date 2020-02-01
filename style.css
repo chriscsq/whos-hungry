@@ -1,5 +1,6 @@
 .banner-text {
     color: white;
+    text-shadow: 2px 2px #bbc7c9;
     font-family: Roboto;
     font-weight: bolder;
     position: relative;
@@ -7,6 +8,7 @@
 
 .banner-text-lightbg {
     color: yellow;
+    text-shadow: 2px 2px #ff0000;
     font-family: Roboto;
     font-weight: bolder;
     position: relative;
@@ -34,6 +36,7 @@
 #about-banner {
     background-image: url(https://i.imgur.com/eKGSRjd.jpg);
 }
+
 .topnav {
     position: relative;
     list-style: none;
@@ -88,9 +91,7 @@
 
     to {
         opacity: .8;
-
     }
-
 }
 
 @-webkit-keyframes fadecolor {
@@ -102,5 +103,3 @@
         color: coral;
     }
 }
-
-
