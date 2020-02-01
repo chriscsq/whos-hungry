@@ -3,34 +3,61 @@
     font-family: Roboto;
     font-weight: bolder;
     opacity: 65%;
+    position: relative;
 }
 
 .banner {
-    vertical-align: top;
     background-color: #F7AF9D;
     background-image: url(https://i.imgur.com/oIjDZRB.jpg);
     background-size: 120%;
     height: 500px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.topnav a {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    font-family: Roboto;
-    text-decoration: none;
-    color: black;
+.topnav {
+    vertical-align: top;
 }
 
-#title {
+    .topnav a {
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        font-family: Roboto;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+
+#title1 {
     font-size: 70px;
-    margin-left: 5%;
-    margin-top: 20%;
     opacity: 80%;
+    -webkit-animation: fadein1 2s;
+    top: 15%;
 }
 
 #title2 {
     font-size: 50px;
-    margin-left: 5%;
-    margin-top: -5%;
+    -webkit-animation: fadein2 3s;
+    top: 0%;
+}
+
+@-webkit-keyframes fadein1 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: .7;
+    }
 }
