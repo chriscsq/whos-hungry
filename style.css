@@ -57,6 +57,9 @@ body {
     border-radius: 10px;
 }
 
+#contact-banner {
+    background-image: url(https://viainvest.com/blog/wp-content/uploads/2017/02/StockSnap_DWLWL9USBG-825x510.jpg)
+}
 #home-banner {
     background-image: url(https://i.imgur.com/oIjDZRB.jpg);
 }
@@ -150,7 +153,7 @@ body {
     list-style: none;
     text-align: left;
     background-color: black;
-    width: 580px;
+    width: 705px;
     top: -30px;
     height: 40px;
 }
