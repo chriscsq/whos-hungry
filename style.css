@@ -102,6 +102,15 @@ body {
     padding: 10px;
 }
 
+.links {
+    color: #bbc7c9;
+}
+
+    .links:hover {
+        color: #b5a5aa;
+    }
+
+
 .circle-images {
     display: block;
     margin-left: auto;
