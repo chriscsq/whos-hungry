@@ -139,21 +139,38 @@ body {
     }
 
 
+.topnav-centered {
+    padding: 10px;
+}
+
 .topnav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     list-style: none;
-    text-align: center;
+    text-align: left;
+    background-color: black;
+    width: 565px;
+    top: -30px;
+    height: 40px;
 }
 
     .topnav li {
         display: inline;
     }
 
+        .topnav li + li:before {
+            content: " | ";
+            padding: 10 px;
+            color: white;
+        }
+
     .topnav a {
         font-weight: lighter;
         font-family: Roboto;
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: 20px;
         padding: 20px;
     }
