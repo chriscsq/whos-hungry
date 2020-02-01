@@ -8,13 +8,27 @@
 
 .banner {
     background-color: #F7AF9D;
-    background-image: url(https://i.imgur.com/oIjDZRB.jpg);
     background-size: cover;
     height: 500px;
     padding: 20px;
     border-radius: 10px;
 }
 
+#home-banner {
+    background-image: url(https://i.imgur.com/oIjDZRB.jpg);
+}
+
+#restaurant-banner {
+    background-image: url(https://cdn.thespaces.com/wp-content/uploads/2018/02/Prado-Lisbon-restaurants-for-design-lovers-ft.jpg);
+}
+
+#deals-banner {
+    background-image: url(https://igchospitality.com/wp-content/uploads/2016/04/Screen-Shot-2016-04-14-at-1.05.02-PM.png);
+}
+
+#about-banner {
+    background-image: url(https://i.imgur.com/eKGSRjd.jpg);
+}
 .topnav {
     position: relative;
     list-style: none;
