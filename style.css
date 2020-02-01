@@ -202,11 +202,14 @@ table, th, td {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto', sans-serif;
-    border-bottom: 1px solid #ddd;
     padding: 15px;
     text-align: left;
     color: #89959B;
     width: 600px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
 }
 
 input[type=text], textarea {
