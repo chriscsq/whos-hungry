@@ -79,8 +79,8 @@ body {
 }
 
 .column-single {
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 .column-70 {
@@ -195,6 +195,9 @@ body {
 }
 
 table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+
     font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid #ddd;
     padding: 15px;
