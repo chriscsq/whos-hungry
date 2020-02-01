@@ -104,15 +104,15 @@ body {
 .squared-images {
     border-radius: 50px;
     padding: 10px;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
     .squared-images:hover {
         -webkit-animation: enlarge .5s;
-        height: 220px;
-        width: 220px;
+        height: 350px;
+        width: 350px;
     }
 
 
@@ -186,12 +186,12 @@ body {
 
 @-webkit-keyframes enlarge {
     from {
-        width: 200px;
-        height: 200px;
+        width: 300px;
+        height: 300px;
     }
 
     to {
-        width: 220px;
-        height: 220px;
+        width: 350px;
+        height: 350px;
     }
 }
