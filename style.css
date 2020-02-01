@@ -77,12 +77,14 @@
 }
 
 @-webkit-keyframes fadein2 {
-    opacity: 0;
-}
+    from {
+        opacity: 0;
+    }
 
-to {
-    opacity: .7;
-}
+    to {
+        opacity: .7;
+
+    }
 
 }
 
@@ -95,6 +97,4 @@ to {
         color: coral;
     }
 
-    @-webkit-keyframes fadein2 {
-        from
 
