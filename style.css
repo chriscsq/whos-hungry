@@ -2,12 +2,17 @@
     color: white;
     font-family: Roboto;
     font-weight: bolder;
-    opacity: 65%;
+    position: relative;
+}
+
+.banner-text-lightbg {
+    color: yellow;
+    font-family: Roboto;
+    font-weight: bolder;
     position: relative;
 }
 
 .banner {
-    background-color: #F7AF9D;
     background-size: cover;
     height: 500px;
     padding: 20px;
@@ -55,7 +60,6 @@
 
 #title1 {
     font-size: 70px;
-    opacity: 80%;
     -webkit-animation: fadein1 2s;
     top: 15%;
 }
@@ -65,6 +69,7 @@
     -webkit-animation: fadein2 4s;
     top: 0%;
 }
+
 
 @-webkit-keyframes fadein1 {
     from {
@@ -82,7 +87,7 @@
     }
 
     to {
-        opacity: .7;
+        opacity: .8;
 
     }
 
