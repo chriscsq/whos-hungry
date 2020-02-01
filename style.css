@@ -58,8 +58,9 @@ body {
 }
 
 #contact-banner {
-    background-image: url(https://viainvest.com/blog/wp-content/uploads/2017/02/StockSnap_DWLWL9USBG-825x510.jpg)
+    background-image: url(https://c.pxhere.com/photos/d7/f4/sackcloth_sackcloth_textured_laptop_ipad_brown_fabric_organic_natural-1046481.jpg!d);
 }
+
 #home-banner {
     background-image: url(https://i.imgur.com/oIjDZRB.jpg);
 }
@@ -196,6 +197,7 @@ body {
     top: 0%;
 }
 
+
 table, th, td {
     margin-left: auto;
     margin-right: auto;
@@ -207,7 +209,23 @@ table, th, td {
     width: 600px;
 }
 
+input[type=text], textarea {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 8px 0;
+    width: 100%;
+    color: #89959B;
+    resize: none;
+}
 
+input[type=submit] {
+    font-family: 'Roboto', sans-serif;
+    background-color: #89959B;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+}
 
 @-webkit-keyframes fadein1 {
     from {
