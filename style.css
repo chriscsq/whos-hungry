@@ -9,25 +9,35 @@
 .banner {
     background-color: #F7AF9D;
     background-image: url(https://i.imgur.com/oIjDZRB.jpg);
-    background-size: 120%;
+    background-size: cover;
     height: 500px;
     padding: 20px;
     border-radius: 10px;
 }
 
 .topnav {
-    vertical-align: top;
+    position: relative;
+    list-style: none;
+    text-align: center;
 }
 
+    .topnav li {
+        display: inline;
+    }
+
     .topnav a {
-        float: left;
-        text-align: center;
-        padding: 14px 16px;
+        font-weight: lighter;
         font-family: Roboto;
         text-decoration: none;
         color: black;
-        text-align: center;
+        font-size: 17px;
+        padding: 20px;
     }
+
+        .topnav a:hover {
+            text-decoration: underline;
+            -webkit-animation: fadecolor 2s;
+        }
 
 #title1 {
     font-size: 70px;
@@ -51,9 +61,16 @@
         opacity: 1;
     }
 }
-
-@-webkit-keyframes fadein2 {
+@-webkit-keyframes fadecolor {
     from {
+        color: black:
+    }
+    to {
+        color: coral;
+    }
+
+    @-webkit-keyframes fadein2 {
+        from {
         opacity: 0;
     }
 
