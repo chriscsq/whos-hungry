@@ -41,15 +41,21 @@ body {
 .column-three {
     width: 30%;
     float: left;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .squared-images {
     border-radius: 50px;
     padding: 10px;
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
 }
+
+    .squared-images:hover {
+        -webkit-animation: enlarge .5s;
+        height: 220px;
+        width: 220px;
+    }
 
 .body-text {
     font-family: Roboto;
@@ -96,6 +102,7 @@ body {
         .topnav a:hover {
             text-decoration: underline;
             -webkit-animation: fadecolor .5s;
+            color: #bbc7c9
         }
 
 #title1 {
@@ -138,5 +145,17 @@ body {
 
     to {
         color: #bbc7c9;
+    }
+}
+
+@-webkit-keyframes enlarge {
+    from {
+        width: 200px;
+        height: 200px;
+    }
+
+    to {
+        width: 220px;
+        height: 220px;
     }
 }
