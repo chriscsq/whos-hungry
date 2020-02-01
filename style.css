@@ -1,3 +1,12 @@
+.site-h2 {
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
 .banner-text {
     color: white;
     text-shadow: 2px 2px #bbc7c9;
@@ -19,6 +28,34 @@
     height: 500px;
     padding: 20px;
     border-radius: 10px;
+}
+
+.row {
+    padding-left: 20px;
+}
+
+.column-single {
+    border-radius: 10px;
+}
+
+.column-three {
+    width: 30%;
+    float: left;
+    padding-right: 20px;
+}
+
+.squared-images {
+    border-radius: 50px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.body-text {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #89959B;
 }
 
 #home-banner {
@@ -100,6 +137,6 @@
     }
 
     to {
-        color: coral;
+        color: #bbc7c9;
     }
 }
