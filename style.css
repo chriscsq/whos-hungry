@@ -3,6 +3,13 @@
     font-size: 30px;
 }
 
+.body-text {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #89959B;
+}
+
 body {
     background-color: #F3F3F3;
 }
@@ -30,40 +37,6 @@ body {
     border-radius: 10px;
 }
 
-.row {
-    padding-left: 20px;
-}
-
-.column-single {
-    border-radius: 10px;
-}
-
-.column-three {
-    width: 30%;
-    float: left;
-    padding-right: 10px;
-}
-
-.squared-images {
-    border-radius: 50px;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
-}
-
-    .squared-images:hover {
-        -webkit-animation: enlarge .5s;
-        height: 220px;
-        width: 220px;
-    }
-
-.body-text {
-    font-family: Roboto;
-    font-size: 20px;
-    line-height: 1.5;
-    color: #89959B;
-}
-
 #home-banner {
     background-image: url(https://i.imgur.com/oIjDZRB.jpg);
 }
@@ -79,6 +52,52 @@ body {
 #about-banner {
     background-image: url(https://i.imgur.com/eKGSRjd.jpg);
 }
+
+.row {
+    padding-left: 20px;
+}
+
+.column-single {
+    border-radius: 10px;
+}
+
+.column-70 {
+    padding-right: 20px;
+    width: 60%;
+    float: left;
+}
+
+.column-30 {
+    width: 30%;
+    float: left;
+}
+
+.column-three {
+    width: 30%;
+    float: left;
+    padding-right: 10px;
+}
+
+.circle-images {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.squared-images {
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+    .squared-images:hover {
+        -webkit-animation: enlarge .5s;
+        height: 220px;
+        width: 220px;
+    }
+
 
 .topnav {
     position: relative;
