@@ -24,8 +24,3 @@ https://chriscsq.github.io/whos-hungry
 - The html/css must be nicely formatted, so that a human can easily read it.
 - Make sure your site works as intended in at least the following desktop browsers: Google Chrome and Mozilla Firefox.
 - You are not allowed to use any library for this assignment!
-
-#### Screenshots:
-
-![About us](https://imgur.com/Gb3YWDq)
-![Restaurant](https://imgur.com/AYsOOEv)
